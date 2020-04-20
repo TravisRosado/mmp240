@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding:0;
+    border:none;
+    font-family:arial;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+    
+}
+
+.container{
+    max-width: 1140px;
+    padding:8px;
+    padding-top: 16px;
+    margin: 8px;
+    position: relative; /* acts as a ref point to positioned elements inside it */
+    border-radius: 10px; 
+}
+
+header{
+    float: left;
+    width: 60%;
+    margin-bottom:2em;
+}
+
+
+.orange-color{
+    color: orange;
+}
+
+.fluid-image{
+    width:100%;
+}
+
+p{
+    margin-bottom:1em;
+}
+
+nav{
+    padding: 0.75em;
+    padding-left: 1em;
+    margin-top:1em;
+    float: right;
+    width: 30%;
+}
+nav a{
+    font-family: arial;
+    
+}
+
+.main-menu ul{
+    position:absolute;
+    background-color: #9be7ff;
+    width: 150px;
+}
+.main-menu li{
+    
+    padding-top:6px;
+    border-bottom: solid 1px #333;
+    padding-left:1em;
+}
+
+
+.main-menu a{
+    color: black;
+    text-decoration: none;
+  
+    
+}
+
+h1{
+    color:lightblue;
+}
+.page-header h2{
+    color:blue;
+}
+.main-menu ul{
+    background-color: #9be7ff;
+    list-style-type: none;
+    
+
+}
+    main{
+        background-color:white;
+        clear: none; /* clear all floats*/
+    }
+    
+    
+.page-main{
+    background-color: white;
+}
+
+form{
+    height: 36px;
+    padding-top: 6px;
+    border: solid 1xp #333;
+   background-color: #9be7ff;
+  
+    
+}
+
+/*  Search Form  */
+
+.search{
+    padding-top:6px;
+    border: solid 1px #333;
+    background-color: #9be7ff;
+    
+    
+}
+.search input{
+    border:solid 1px #ccc;
+  /*  
+    line-height: 2em;
+    margin-left:1em;
+    padding:3px;
+  */  
+}
+main{
+    clear:both; /* clears all floats */
+}
+.pagetitle{
+    margin-top:3em;
+}
+@media(min-width: 768px){
+    .container{
+    padding:32px;
+    margin: 32px;
+  
+}
+    
+    header {
+        width:25%;
+    }
+    nav{
+        width:65%;
+        background-color: #9be7ff; 
+    }
+    .main-menu ul{
+        position:static;
+        width:auto;
+    }
+    .menu-button{
+        display:none;
+    }
+    
+    .main-menu li{
+    display: inline-block;
+        border: none;
+        height: auto;
+        margin: 6px;
+    }
+    .dropdown li{
+        display:block;
+    }
+    .dropdown ul{
+        display:none;
+    }
+    
+    .dropdown:hover ul{
+        display:block;
+        position: absolute;
+        width:100px;
+    }
+    .menubar{
+        display:flex;
+        justify-content:flex-end;
+    }
+    .search{
+        padding-top:0;
+        border: none;
+        background-color: transparent;
+        margin-left: 2em;
+        margin-top:12px;
+       
+   
+} /* media query ends */
+    
+}
+
+
+
+
+    
